@@ -108,7 +108,7 @@ body {
 .icon-smartphone {
   display: inline-block;
   width: 10px;
-  height: 16px; 
+  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -330,7 +330,6 @@ body {
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 }
-
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -630,8 +629,6 @@ body {
   fill: currentColor;
 }
 
-
-
 .button-subscribe {
   width: 200px;
   height: 50px;
@@ -644,12 +641,11 @@ body {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .button-subscribe:hover,
 .button-subscribe:focus {
-  background-color: var(--accent-primary-button-color)
+  background-color: var(--accent-primary-button-color);
 }
 
 .button-text {
@@ -660,7 +656,6 @@ body {
   font-size: 16px;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-
 }
 
 .button-text::after {
@@ -670,7 +665,6 @@ body {
   margin-left: 10px;
   background-image: url("../images/icon/svg/send.svg");
 }
-
 
 .subscribe input {
   margin-right: 12px;
@@ -686,8 +680,6 @@ body {
   outline: none;
 }
 
-
-
 .p-subscribe {
   padding-bottom: 20px;
   font-weight: 700;
@@ -697,7 +689,6 @@ body {
 
   color: var(--primary-white-color);
 }
-
 
 /* portfolio */
 /* section project portfolio */
@@ -911,15 +902,11 @@ body {
   outline: none;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-  
 }
 
 .box-form {
   position: relative;
   display: inline-flex;
- 
-
 }
 .icons-form {
   display: inline-block;
@@ -927,7 +914,6 @@ body {
   width: 18px;
   height: 18px;
   translate: 50% 50%;
-      
 }
 
 .form-input:focus,
@@ -939,9 +925,8 @@ body {
 
 .form-input:focus ~ .icons-form,
 .form-input:hover ~ .icons-form {
- fill:var(--primary-button-color);
+  fill: var(--primary-button-color);
 }
-
 
 .comment {
   height: 120px;
@@ -957,21 +942,18 @@ body {
 }
 
 ::placeholder {
-  letter-spacing: 0.01em; 
+  letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-
 .form-condition {
   display: flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-   
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .checkbox-svg {
-  
   display: flex;
   width: 16px;
   height: 15px;
@@ -979,16 +961,14 @@ body {
   border-radius: 4px;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tick {
-  
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .form-condition input:checked + .checkbox-svg {
@@ -996,16 +976,12 @@ body {
   border: 2px solid var(--accent-text-color);
 }
 
-
-
 .checkbox {
- -webkit-appearance: none;
- -moz-appearance: none;
- appearance: none;
- position: absolute;
-   
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
 }
-
 
 .form-condition label {
   font-size: 14px;
@@ -1068,13 +1044,12 @@ body {
   cursor: pointer;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover,
 .close-button:focus {
   color: var(--accent-second-button-color);
-  
 }
 
 .button-modal {
@@ -1087,7 +1062,6 @@ body {
 .button-modal:hover,
 .button-modal:focus {
   fill: currentColor;
-  
 }
 /* .no-scroll {
   overflow: hidden;
