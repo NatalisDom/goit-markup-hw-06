@@ -528,11 +528,13 @@ body {
   display: flex;
 
   align-items: baseline;
-  gap: 70px;
+  /* gap: 70px; */
+  
 }
 
 .footer-container {
   display: block;
+  margin-right: 70px;
 }
 
 .adress-box {
@@ -582,6 +584,7 @@ body {
 
 .sosial-box-footer {
   display: inline-block;
+  margin-right: 93px;
 }
 
 .social-join {
@@ -628,6 +631,9 @@ body {
 .icons-social-footer:hover {
   fill: currentColor;
 }
+
+
+
 
 .button-subscribe {
   width: 200px;
@@ -681,7 +687,7 @@ body {
 }
 
 .p-subscribe {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -950,11 +956,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  
 }
 
 .checkbox-svg {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 7px;
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
@@ -971,7 +979,7 @@ body {
   align-items: center;
 }
 
-.form-condition input:checked + .checkbox-svg {
+.form-condition input:checked + label .checkbox-svg {
   background-color: var(--accent-second-button-color);
   border: 2px solid var(--accent-text-color);
 }
